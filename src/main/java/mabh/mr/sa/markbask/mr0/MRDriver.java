@@ -13,6 +13,10 @@ public class MRDriver {
  
 	public static void main(String[] args) throws Exception {
 		
+		/*
+		 * yarn jar <jarfile> <mainClass> args...
+		 */
+		
 	  	Configuration conf = new Configuration();
 	  	
 	    String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
